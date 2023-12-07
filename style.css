@@ -1,0 +1,191 @@
+
+body {
+    background: black;
+}
+
+.home h1 {
+    margin-top: 30%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.home p {
+    padding-top: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.rate h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.lj h1 {
+    color: rgb(255, 208, 0);
+    font-size: 4rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.lj h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.abt h1 {
+    padding-top: 10rem;
+    color: rgb(255, 217, 0);
+    font-family: 'Cormorant Garamond', serif;
+            font-family: 'Titillium Web', sans-serif;
+}
+
+.abt ul {
+    padding-top: 2rem;
+    color:rgb(255, 213, 0);
+    font-family: 'Cormorant Garamond', serif;
+            font-family: 'Titillium Web', sans-serif;
+}
+
+.pic2 p {
+    padding-top: 3rem;
+}
+
+.pic3 p {
+    padding-top: 6rem;
+}
+
+.line hr {
+    border: 1px solid gray;
+    margin-top: 4rem;
+}
+.lt li {
+    list-style: none;
+}
+
+.lt h5 {
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: -5%;
+}
+
+.line2 hr {
+    border: 1px solid gray;
+    
+}
+
+.line3 p {
+    text-align: center;
+}
+
+
+
+@media (max-width:576px) {
+    .home h1{
+        text-align: center !important;
+        margin: 0  !important;
+        padding-top: 2rem !important;
+    }
+    .home p{
+        text-align: center !important;
+        margin-top: 1rem !important;
+        font-size: 1rem !important;
+        padding: 0 10px !important;
+    }
+
+  .homebtn{
+    padding: 0 9rem !important;
+  }
+
+}
+
+@media (max-width:576px) {
+    .rate h4 {
+        text-align: center !important;
+        font-size: 1rem !important;
+        text-align: justify !important;
+        
+    }
+
+    .lj h1{
+    font-size: 4rem !important;
+        margin: 0 1rem !important;
+        text-align: center !important;
+        padding-top: 2rem !important;
+    }
+    .lj h5 {
+        text-align: center !important;
+    }
+}
+
+@media (max-width:576px) {
+    .abt ul {
+        text-align: center !important;
+    }
+
+    .abt img {
+       margin-top: -20% !important;
+       text-align: center !important;
+    }
+
+    .abt h1 {
+        text-align: center !important;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .pic p {
+        text-align: center !important;
+        margin-top: -3% !important;
+    }
+
+    .pic hr {
+        margin-top: 10% !important;
+    }
+}
+
+@media (max-width:576px) {
+    .pic2 p {
+        text-align: center !important;
+        margin-top: -10%;
+    }
+
+    .pic2 hr {
+        margin-top: 10% !important;
+        
+    }
+}   
+
+@media (max-width:576px) {
+    .pic3 p {
+        text-align: center !important;
+        margin-top: -20%;
+    }
+
+    .pic3 hr {
+        margin-top: 10% !important;
+    
+    }
+}
+
+@media (max-width:576px) {
+    .line3 p {
+        text-align: center !important;
+    }
+}
+
+@media (max-width:576px) {
+    .lt li {
+        text-align: center !important;
+    }
+
+    .lt h5 {
+        text-align: center !important;
+    }
+}
+
+
+
+
+
+
+    
+
+
